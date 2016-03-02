@@ -1,5 +1,4 @@
 # PS-Coursework2
 
-#MSc in High Performance Computing
-MSc in High Performance Computing with Data Science
+MSc in High Performance Computing
 Programming Skills Coursework 2 - Development
