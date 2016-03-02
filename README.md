@@ -1,4 +1,4 @@
 # Predator-Prey Model
 
-MSc in High Performance Computing
-Programming Skills Coursework 2 - Development
+Implementation of a sequential version of a two-dimensional predator-prey model
+with spatial diffusion using Java.
