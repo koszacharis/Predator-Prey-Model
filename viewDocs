@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FIREFOX=`which firefox`
+status=$?
+if [ $status -ne 0 ]
+then
+	echo "Could not find a firefox executable"
+	exit 1
+fi
+
+indexFile="target/site/index.html"
+if [ -f "$indexFile" ]
+then
+	$FIREFOX $indexFile &
+	exit 0
+else
+	echo "Could not find the site index file. Perhaps you need to run 'make'?"
+	exit 1
+fi

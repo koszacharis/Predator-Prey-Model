@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# shell script to run the PS Coursework Jar that we generated and parked
+# with a make file
+#
+# Andy Law (s1578554@sms.ed.ac.uk)
+# 5th November 2015
+#
+JARFILE=`find ./bin -name "*-jar-with-dependencies.jar" 2>/dev/null`
+status=$?
+if [ $status -ne 0 ]
+then
+	echo "Could not find the executable jar file"
+	echo "Did you remember to run the make command (as described in the README.txt file)?"
+	exit 1
+fi
+java -jar $JARFILE $@

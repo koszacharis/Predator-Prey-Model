@@ -1,0 +1,39 @@
+1. THIS CODE
+------------
+All source code developed as part of this project is licensed under the terms of the MIT
+licence
+
+The MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+2. THIRD PARTY CODE
+-------------------
+Details of the Third-party code used within this project and their Licensing terms are
+included in the Project documentation website under 'Dependencies'.
+
+
+Hamcrest Core is included under the Terms of a BSD style license
+
+EasyMock, Objenesis and JCommander are licensed using the Apache Software
+Licence, Version 2.0 
+
+JUnit is licensed under the Terms of the Common Public License Version 1.0

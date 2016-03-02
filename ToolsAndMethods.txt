@@ -1,0 +1,29 @@
+0. Description of the Tools and Methods used
+
+The code is written in Java (https://www.java.com/en/), targeted to the JVM version 1.7
+(Java 7)
+
+Source code for the project was maintained in a Git repository housed at BitBucket
+(http://bitbucket.org/). All developers had administrative and direct write access to the
+main repository. This allowed us to share the load of pushing commits and removed the need
+for Pull Requests and a central Repository Master role.
+
+The Project layout and management used Maven (http://maven.apache.org/) to permit
+cross-platform, cross-IDE sharing and to ease the management and running of tests.
+
+Three of the developers chose to use Eclipse (http://eclipse.org/) as their primary
+development environment whilst the fourth preferred NetBeans (http://netbeans.org).
+Because of the standardised project layout enforced by the Maven prototypes, there were no
+issues with cross-IDE difficulties
+
+Unit Tests were constructed and run using the JUnit framework version 4.10
+(http://junit.org), with mock object created using the EasyMock framework version 3.4
+(http://easymock.org) where required.
+
+Reports of test code coverage (available in the project documentation website) were
+generated using the Cobertura library (http://cobertura.github.io/cobertura/) version
+2.1.1 and its associated maven plugin version 2.7.
+
+The finished code made extensive use of the JCommander command line argument parsing
+library (http://jcommander.org) version 1.48 because life is too short to parse command
+line parameters.
